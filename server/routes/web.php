@@ -17,6 +17,6 @@ Route::group(['middleware' => ['web', 'MsGraphAuthenticated'], 'prefix' => 'app'
     Route::get('logout', [AuthController::class, 'logout'])->name('logout');
 });
 
-Route::get('/{any}', function () {
-    return redirect('http://localhost:5173');
-})->where('any', '.*');
+// Route::get('/{any}', function () {
+//     return redirect('http://localhost:5173');
+// })->where('any', '.*');

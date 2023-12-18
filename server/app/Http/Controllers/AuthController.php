@@ -23,10 +23,10 @@ class AuthController extends Controller
         return MsGraph::disconnect();
     }
 
-    public function route(Request $request)
-    {
-        return Redirect::away('http://localhost:5173');
-    }
+    // public function route(Request $request)
+    // {
+    //     return Redirect::away('http://localhost:5173');
+    // }
 }
     
 
