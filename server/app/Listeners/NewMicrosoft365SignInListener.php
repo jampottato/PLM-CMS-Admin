@@ -5,8 +5,8 @@ namespace App\Listeners;
 use App\Models\User;
 use Dcblogdev\MsGraph\MsGraph;
 use Illuminate\Support\Facades\Auth;
-use App\Listeners\NewMicrosoft365SignInListener;
-use Dcblogdev\MsGraph\Events\NewMicrosoft365SignInEvent;
+
+
 class NewMicrosoft365SignInListener
 {
     public function handle($event)
@@ -29,5 +29,4 @@ class NewMicrosoft365SignInListener
 
         Auth::login($user);
     }
-   
 }

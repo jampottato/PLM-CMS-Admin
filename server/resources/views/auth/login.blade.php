@@ -4,5 +4,3 @@
 </div>
             
 <p><a href="{{ route('connect') }}">Login with your Microsoft Account</a></p>
-<p><a href="{{ route('connect') }}">Connect</a></p>
-<p><a href="{{ route('logout') }}">Logout</a></p>

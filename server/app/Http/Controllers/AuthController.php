@@ -1,9 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Auth;
-
+namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Dcblogdev\MsGraph\Facades\MsGraph;
+
+use Illuminate\Http\Request;
 
 class AuthController extends Controller
 {
@@ -19,6 +20,13 @@ class AuthController extends Controller
 
     public function logout()
     {
-        return MsGraph::disconnect('/');
+        return MsGraph::disconnect();
+    }
+
+    public function route(Request $request)
+    {
+        return Redirect::away('http://localhost:5173');
     }
 }
+    
+
