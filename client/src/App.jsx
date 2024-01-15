@@ -1,13 +1,13 @@
 import React from "react";
-import { Home } from "./routes/Home";
 import "@mantine/core/styles.css";
 import Login from "./components/Login";
+import Shell from "./components/Shell";
 
 function App() {
   return (
     <div>
-      {/* <Home /> */}
-      <Login />
+      <Shell />
+      {/* <Login /> */}
     </div>
   );
 }
