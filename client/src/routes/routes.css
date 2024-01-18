@@ -1,0 +1,47 @@
+.main-container {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #efefef;
+  font-family: Poppins, sans-serif;
+}
+
+.container {
+  height: 100svh;
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: auto;
+  margin: auto;
+  height: 20vh;
+}
+
+.login-container {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  margin: auto;
+  padding: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.text:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  padding: 1.5rem;
+  height: 10vh;
+}
